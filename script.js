@@ -9,7 +9,7 @@ var output = document.getElementById("output");
 function generate(){
 
 
-fetch(`https://some-random-api.ml/canvas/youtube-comment?avatar=https://cdn.discordapp.com/avatars/560789882738573324/bc220b0eeeabbe234026e4881f3c3b9c.png&username=${username.value}&comment=${commentText.value}`)
+fetch(`https://some-random-api.ml/canvas/youtube-comment?avatar=https://pasteboard.co/64prAodKCixt.png&username=a&comment=a`)
    .then(res => { 
 		console.log(res.url)
 		output.src = res.url
